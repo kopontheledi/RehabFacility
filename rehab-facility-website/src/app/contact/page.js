@@ -1,19 +1,19 @@
 // app/contact/page.js
 export default function ContactPage() {
     return (
-      <div className="bg-gray-100 py-12">
-        <div className="container mx-auto text-center">
-          <h1 className="text-4xl font-bold text-blue-800 mb-8">Contact Us</h1>
-          <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-8">
+      <div class="bg-gray-100 py-12">
+        <div class="container mx-auto text-center">
+          <h1 class="text-4xl font-bold text-blue-800 mb-8">Contact Us</h1>
+          <p class="text-lg text-gray-700 max-w-2xl mx-auto mb-8">
             We’re here to help. If you or a loved one need assistance, feel free to reach out. Our support team is available 24/7.
           </p>
-          <form className="bg-white p-8 shadow-md rounded-md max-w-md mx-auto">
-            <div className="mb-6">
-              <label htmlFor="name" className="block text-left font-semibold mb-2">Name</label>
+          <form class="bg-white p-8 shadow-md rounded-md max-w-md mx-auto">
+            <div class="mb-6">
+              <label htmlFor="name" class="block text-left font-semibold mb-2">Name</label>
               <input
                 type="text"
                 id="name"
-                className="w-full p-3 border rounded-md"
+                class="w-full p-3 border rounded-md"
                 placeholder="Your Name"
                 required
               />
